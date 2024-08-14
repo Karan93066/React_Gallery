@@ -10,7 +10,6 @@ function Image_Card({image}) {
       <div className="px-6 py-4">
         <div className="font-bold text-xl text-purple-500 mb-2">Photo By {image.user}</div>
         <ul>
-          <li className="text-gray-700 hover:text-gray-900">Image description</li>
           <li>
             <strong>Views : </strong>
             {image.views}
